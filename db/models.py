@@ -1,2 +1,3 @@
 # Base database configuration
-user_id = Column(Integer, name="user_id")
+# Bug introduced for testing: column renamed without updating client queries
+user_id = Column(Integer, name="account_identifier")
